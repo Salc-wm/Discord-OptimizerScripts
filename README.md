@@ -22,7 +22,7 @@ Modified and enhanced by [Salc-wm](https://github.com/Salc-wm).**
 The script offers a range of optimization options, which can be applied individually:
 
 1. 🧹 **Debloat**: Removes non-essential modules from the Discord application directory.
-2. 🗑️ **Clear Unused Languages**: Deletes all language files except for English (`en-US`) and Portuguese (`pt-BR`).
+2. 🗑️ **Clear Unused Languages**: Deletes all language files except the system one.
 3. 📋 **Clear Logs & Reports**: Wipes log files, old installation packages, and crash reports.
 4. ⚡ **Optimize Priority**: Allows you to set Discord's CPU priority (Low, High, or Normal).
 5. 📦 **Clear Old Versions**: Scans for and removes outdated Discord application versions.
@@ -80,8 +80,8 @@ Each function is a self-contained block of code that performs a specific optimiz
 
 
 ## Future Features
-- [ ] Dynamic Language Selection:
-  - [ ] Allow users to choose which language(s) to keep through an interactive menu, instead of the current hardcoded selection.
+- [ x ] Dynamic Language Selection:
+  - [ x ] The language is automatically identified by the system.
 
 - [ ] Advanced Priority Control:
   - [ ] Offer more granular CPU priority levels (e.g., Below Normal, Above Normal).
